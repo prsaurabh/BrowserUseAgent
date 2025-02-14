@@ -30,7 +30,6 @@ class System_Prompt:
     System_Promt1 = """
             MOST IMPORTANT RULE:
                 - ALWAYS search Google first if exact url is not provided!!
-                - When you encounter a blue link with agent's name, click on it to get more information.
             """
 
       
