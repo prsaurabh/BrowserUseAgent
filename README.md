@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/ecb3de0a-dcb6-4f55-8a00-1f0a5be8e44c
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/prsaurabh2024/BrowserUseAgent.git
    cd Browser-Use
    ```
 
