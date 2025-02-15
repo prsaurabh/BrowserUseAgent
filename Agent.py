@@ -10,7 +10,7 @@ from pydantic import ValidationError
 async def main():
     # API Keys
     llm = ChatOpenAI(model="gpt-4o", api_key=OPENAI_API_KEY)
-    planner_llm = ChatOpenAI(model='gpt-4o', api_key=PLANNER_API_KEY)
+    planner_llm = ChatOpenAI(model='03-mini', api_key=PLANNER_API_KEY)
 
     controller = Controller()
     setup_controllers(controller)
@@ -28,7 +28,7 @@ async def main():
         controller=controller,
         browser=browser,  
         use_vision=True,
-        use_vision_for_planner=True,
+        use_vision_for_planner=False,
         planner_interval=4,
         system_prompt_class=MySystemPrompt,
         save_conversation_path="C:\\temp\\log",
