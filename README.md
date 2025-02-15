@@ -8,6 +8,10 @@ Fully customizable and extensible.
 
 
 
+https://github.com/user-attachments/assets/ecb3de0a-dcb6-4f55-8a00-1f0a5be8e44c
+
+
+
 ## Project Structure
 
 - `Agent.py`: Main script to run the agent.
