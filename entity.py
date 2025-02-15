@@ -16,9 +16,6 @@ class AgentDetail(BaseModel):
 class ImageRequest(BaseModel):
     image_path: str = "C:/temp/Agent.jpg"
 
-class PDFDownloadRequest(BaseModel):
-    url: str
-    
 class MySystemPrompt(SystemPrompt):
     def important_rules(self) -> str:
         rules = System_Prompt.System_Promt_Main
