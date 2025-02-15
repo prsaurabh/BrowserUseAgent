@@ -5,25 +5,28 @@ This project contains a Python-based agent that uses the `browser_use` library t
 ## Demo
 
 
-https://github.com/user-attachments/assets/1dccd0f2-3645-49b5-873c-d0ddcb113ca7
+
 
 
 
 ## Project Structure
 
 - `Agent.py`: Main script to run the agent.
-- `config.py`: Configuration file containing API keys.
-- `controllers.py`: Contains controller actions for the agent.
+- `config.py`: Configuration file containing API keys & path.
+- `controllers.py`: Contains controller actions for the agent. (Functional calling)
 - `credentials.py`: Stores login credentials for various websites.
-- `entity.py`: Defines Pydantic models for data validation.
-- `prompts.py`: Contains task and system prompts.
+- `entity.py`: Defines Pydantic models Entities for data validation.
+- `prompts.py`: Contains User and System prompts.
 - `requirements.txt`: Lists the dependencies required for the project.
+- `agent_report.pdf`: Generated PDF with details extracted by the Agent. (Info - generated sample)
+- `agent_hitory.gif`: Action taken by Agent (one sample).
+ 
 
 ## Setup
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/username/repository.git
    cd Browser-Use
    ```
 
