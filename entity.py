@@ -12,23 +12,18 @@ class AgentDetail(BaseModel):
     Expiry_Date: str
     Address: str
     Related_Party_Name: str
-    image_path: Optional[str] = "C:/temp/Curtisgill.jpg"
+    image_path: Optional[str] = "C:/temp/Agent.jpg"
     
 class AgentDetails(BaseModel):
     Agents: List[AgentDetail]    
-    
-class AgentDetails(BaseModel):
-    Agents: List[AgentDetail]
-
 class ImageRequest(BaseModel):
-    image_path: str = "C:/temp/Curtisgill.jpg"
-
+    image_path: str = "C:/temp/Agent.jpg"
 class PDFDownloadRequest(BaseModel):
     url: str
     
 class MySystemPrompt(SystemPrompt):
     def important_rules(self) -> str:
 
-        rules = System_Prompt.System_Promt1
+        rules = System_Prompt.System_Promt_Main
 
         return f'{rules}'
