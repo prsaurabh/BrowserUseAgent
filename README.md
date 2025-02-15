@@ -1,10 +1,9 @@
 # Browser-Use Agent
 
 This project contains a Python-based agent that uses the `browser_use` library to interact with web browsers and perform various tasks.
+Fully customizable and extensible. 
 
 ## Demo
-
-
 
 
 
