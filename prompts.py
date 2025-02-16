@@ -1,9 +1,11 @@
 class Task_Prompt:
     
+    sensitive_data_ny = {'x_firstname': 'Curtis', 'x_lastname': 'Gill', 'x_state': 'New York'}
+    
     Task_Prompt_NY_PDF = """
     Get detailed information of the real estate agent broker from the state in USA. 
     Gather information only from the State's website for real estate agent license search. 
-    Name of the agent is Curtis Gill from New York.
+    Name of the agent is x_firstname x_lastname from x_state.
     Prepare the report in the PDF with the information and download it. 
     
     Hint - 1. Ask user for information if you are stuck or enconter failures before giving up. 
@@ -11,13 +13,15 @@ class Task_Prompt:
            3. You can use Get sign-in or login credentials for a website with the given name only when needed ex: LinkedIn. 
            4. If you encounter a blue link with agent's name, click on it to get more information.
     """
+    sensitive_data_fl = {'x_firstname': 'Jason', 'x_lastname': 'Crane', 'x_state': 'Florida'}
+    
     Task_Prompt_FL_PDF = """
     Get detailed information of the real estate agent broker from the state in USA. 
     First try Gathering information from the State's website for real estate agent license search. Then try other web sites.
-    Name of the agent is Jason Crane from Florida.
+    Name of the agent is x_firstname x_lastname from florida.
     
     Hint - 1. Ask user for information if you are stuck or enconter failures before giving up. 
-           2. You can use Generate a PDF report.
+           2. You can use Generate a PDF re port.
            3. You can use Get sign-in or login credentials for a website with the given name only when needed ex: LinkedIn. 
            4. If you encounter a blue link with agent's name, click on it to get more information.
     """
