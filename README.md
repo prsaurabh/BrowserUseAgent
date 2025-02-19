@@ -1,7 +1,6 @@
 # Browser-Use Agent
 
 This project contains a Python-based agent that uses the `browser_use` library to interact with web browsers and perform various tasks.
-Fully customizable and extensible. Watch Demo below and see the Agent's action and it's hitory in the agent_hitory.gif file.
 
 ## Demo
 
@@ -21,7 +20,6 @@ https://github.com/user-attachments/assets/ecb3de0a-dcb6-4f55-8a00-1f0a5be8e44c
 - `entity.py`: Defines Pydantic models Entities for data validation.
 - `prompts.py`: Contains User and System prompts.
 - `requirements.txt`: Lists the dependencies required for the project.
-- `agent_report.pdf`: Generated PDF with details extracted by the Agent. (Info - generated sample)
 - `agent_hitory.gif`: Action taken by Agent (one sample).
  
 
